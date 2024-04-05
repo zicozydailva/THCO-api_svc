@@ -1,0 +1,17 @@
+export enum RoleNameEnum {
+    SuperAdmin = 'SUPER_ADMIN',
+    Admin = 'ADMIN',
+    Support = 'SUPPORT',
+    Mentor = 'MENTOR',
+    Moderator = 'MODERATOR',
+    Recruiter = 'RECRUITER',
+    CorpAdmin = 'CORPORATE_ADMIN',
+    CorpStudent = 'CORPORATE_STUDENT',
+    Instructor = 'INSTRUCTOR',
+    Student = 'STUDENT',
+    Editor = 'EDITOR',
+    ScholarshipStudent = 'SCHOLARSHIP_STUDENT',
+    YellowBadgedMentor = 'YELLOW_BADGED_MENTOR',
+    BlueBadgedMentor = 'BLUE_BADGED_MENTOR',
+    GreenBadgedMentor = 'GREEN_BADGED_MENTOR',
+  }
