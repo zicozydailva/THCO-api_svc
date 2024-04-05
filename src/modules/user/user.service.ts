@@ -1,7 +1,7 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { IUser } from 'src/interfaces/user.interfaces';
 import { TokenHelper } from '../utils/token.utils';
-import { Token } from './token.entity';
+import { Token } from './schemas/token.entity';
 import { Model } from 'mongoose';
 import { InjectModel } from '@nestjs/mongoose';
 import { EncryptHelper } from 'src/helpers/encrypt.helper';
